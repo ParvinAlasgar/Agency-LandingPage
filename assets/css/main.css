@@ -2,6 +2,25 @@ html {
   font-size: 1rem !important;
 }
 
+#header {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.primary-btn {
+  display: inline-block;
+  background-color: #ffc800;
+  padding: 1rem 2rem;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 3rem;
+  transition: background-color 0.5s;
+}
+.primary-btn:hover {
+  background-color: goldenrod;
+}
+
 #nav {
   padding: 1rem;
   left: 0;
@@ -22,5 +41,44 @@ html {
   }
   #nav ul {
     justify-content: center !important;
+  }
+}
+
+#header {
+  background-image: url(../images/header-bg.jpg);
+  margin-top: 3.2rem;
+  padding: 16rem 0;
+}
+#header h1 {
+  font-size: 4rem;
+}
+@media (max-width: 768px) {
+  #header h1 {
+    font-size: 2.5rem;
+  }
+}
+@media only screen and (max-width: 576px) {
+  #header {
+    padding: 10rem 0;
+  }
+  #header h1 {
+    font-size: 2rem;
+  }
+}
+
+#main #services {
+  height: 5rem;
+  padding: 4rem 0 !important;
+}
+#main #services i {
+  color: #fff;
+  background-color: #ffc800;
+}
+#main #services h2 {
+  font-size: 3rem;
+}
+@media only screen and (max-width: 576px) {
+  #main #services h2 {
+    font-size: 2rem;
   }
 }/*# sourceMappingURL=main.css.map */

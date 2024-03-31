@@ -1,0 +1,20 @@
+// Main
+#main {
+  // Services
+  #services {
+    height: 5rem;
+    padding: 4rem 0 !important;
+    i {
+      color: #fff;
+      background-color: $primary-color;
+    }
+    h2 {
+      font-size: 3rem;
+    }
+    @include for-small-devices {
+      h2 {
+        font-size: 2rem;
+      }
+    }
+  }
+}

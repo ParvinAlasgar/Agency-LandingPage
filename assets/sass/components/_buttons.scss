@@ -1,0 +1,12 @@
+.primary-btn {
+  display: inline-block;
+  background-color: $primary-color;
+  padding: 1rem 2rem;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 3rem;
+  transition: background-color 0.5s;
+  &:hover {
+    background-color: goldenrod;
+  }
+}
