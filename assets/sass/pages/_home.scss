@@ -52,4 +52,15 @@
       }
     }
   }
+  // Team
+  #team {
+    h2 {
+      font-size: 3rem;
+    }
+    @include for-small-devices {
+      h2 {
+        font-size: 2rem;
+      }
+    }
+  }
 }

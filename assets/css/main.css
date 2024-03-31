@@ -110,4 +110,12 @@ html {
   #main #portfolio h2 {
     font-size: 2rem;
   }
+}
+#main #team h2 {
+  font-size: 3rem;
+}
+@media only screen and (max-width: 576px) {
+  #main #team h2 {
+    font-size: 2rem;
+  }
 }/*# sourceMappingURL=main.css.map */
