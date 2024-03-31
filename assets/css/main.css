@@ -80,4 +80,34 @@ html {
   #main #services h2 {
     font-size: 2rem;
   }
+}
+#main #portfolio {
+  cursor: pointer;
+}
+#main #portfolio h2 {
+  font-size: 3rem;
+}
+#main #portfolio .wrapper:hover .image::after {
+  opacity: 0.9;
+}
+#main #portfolio .wrapper .image::after {
+  content: "+";
+  position: absolute;
+  background-color: #ffc800;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+@media only screen and (max-width: 576px) {
+  #main #portfolio h2 {
+    font-size: 2rem;
+  }
 }/*# sourceMappingURL=main.css.map */
