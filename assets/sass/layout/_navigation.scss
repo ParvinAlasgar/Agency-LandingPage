@@ -1,0 +1,23 @@
+#nav {
+  padding: 1rem;
+  left: 0;
+  z-index: 10;
+  li {
+    a {
+      transition: color 0.5s;
+    }
+    &:nth-child(1) a,
+    &:hover a {
+      color: $primary-color !important;
+    }
+  }
+  @include for-small-devices {
+    font-size: 0.85rem;
+    .logo {
+      display: none;
+    }
+    ul {
+      justify-content: center !important;
+    }
+  }
+}

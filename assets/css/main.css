@@ -1,0 +1,26 @@
+html {
+  font-size: 1rem !important;
+}
+
+#nav {
+  padding: 1rem;
+  left: 0;
+  z-index: 10;
+}
+#nav li a {
+  transition: color 0.5s;
+}
+#nav li:nth-child(1) a, #nav li:hover a {
+  color: #ffc800 !important;
+}
+@media only screen and (max-width: 576px) {
+  #nav {
+    font-size: 0.85rem;
+  }
+  #nav .logo {
+    display: none;
+  }
+  #nav ul {
+    justify-content: center !important;
+  }
+}/*# sourceMappingURL=main.css.map */
