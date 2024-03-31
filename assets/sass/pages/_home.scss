@@ -63,4 +63,17 @@
       }
     }
   }
+  // Contact
+  #contact {
+    background-image: url(../images/map-image.png);
+    @extend %background-img;
+    h2 {
+      font-size: 3rem;
+    }
+    @include for-small-devices {
+      h2 {
+        font-size: 2rem;
+      }
+    }
+  }
 }

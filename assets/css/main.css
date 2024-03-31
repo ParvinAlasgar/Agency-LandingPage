@@ -2,7 +2,7 @@ html {
   font-size: 1rem !important;
 }
 
-#header {
+#main #contact, #header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -116,6 +116,17 @@ html {
 }
 @media only screen and (max-width: 576px) {
   #main #team h2 {
+    font-size: 2rem;
+  }
+}
+#main #contact {
+  background-image: url(../images/map-image.png);
+}
+#main #contact h2 {
+  font-size: 3rem;
+}
+@media only screen and (max-width: 576px) {
+  #main #contact h2 {
     font-size: 2rem;
   }
 }/*# sourceMappingURL=main.css.map */
