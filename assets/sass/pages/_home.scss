@@ -52,6 +52,17 @@
       }
     }
   }
+  // About
+  #about {
+    h2 {
+      font-size: 3rem;
+    }
+    @include for-small-devices {
+      h2 {
+        font-size: 2rem;
+      }
+    }
+  }
   // Team
   #team {
     h2 {
